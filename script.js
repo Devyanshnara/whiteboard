@@ -66,7 +66,7 @@ let draw = (x, y) => {
 let lines = (x, y) => {
     ctx.beginPath();
     ctx.moveTo(x, y);
-    ctx.lineTo(100, 10);
+    ctx.lineTo(x / 20, y / 20);
     ctx.stroke();
 }
 let clear = (x, y) => {
